@@ -1,0 +1,28 @@
+body{
+    background: rgb(4,47,27);
+background: linear-gradient(191deg, rgb(2, 65, 35) 0%, rgb(2, 46, 24) 74%);
+    font-family: "DM Sans", sans-serif;}
+
+.main{
+    background-image: url("./assets/bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+   
+    margin: 0 auto;
+}
+.btn:hover{
+    background-color: white !important;
+    color: #00282b !important;
+    border-color: white !important;
+}
+#balance, #Withdrawal, #deposit, #back, #deduct, #add{
+    display: none ;
+}
+#balance:hover, #Withdrawal:hover , #deposit:hover{
+    background-color: #fdb76c !important;
+    color: #00282b !important;
+}
+.balanceimg{
+    display: none;
+}
