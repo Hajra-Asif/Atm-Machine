@@ -63,6 +63,7 @@ function withdrawal() {
 
 
 }
+
 function deduct() {
     var userinput = document.getElementById("input").value;
 
@@ -87,6 +88,7 @@ function deduct() {
         document.getElementById("mainmessage").innerHTML = "Account type : Current account <br> Account No : 28392928339488  <br> IBAN No : MKx8384bnysvU32230G <br> Card Type : MasterCard <br> Withdrawal Amount : " + userinput + '<br> Account balance : ' + subs
     }
 }
+
 function deposit() {
     document.getElementById("mainheading").style.display = "none"
     document.getElementById("mainmessage").style.display = "block"
@@ -104,6 +106,7 @@ function deposit() {
 
 
 }
+
 function add() {
 
     if (userinput === "") {
